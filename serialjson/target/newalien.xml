@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:globalnames xmlns:tns="http://www.madhura.com/Alienschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.madhura.com/Alienschema Alienschema.xsd ">
+  <tns:alien aid="A1">
+    <tns:name>madhura</tns:name>
+    <tns:salary>900</tns:salary>
+  </tns:alien>
+  <tns:alien aid="A2">
+    <tns:name>madhu</tns:name>
+    <tns:salary>1299</tns:salary>
+  </tns:alien>
+</tns:globalnames>

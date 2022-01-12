@@ -1,0 +1,23 @@
+server:
+ port: 9761
+
+
+file:
+ storage:
+   location: D:\FIle-handle-storage
+
+spring:
+   servlet:
+        multipart:
+           enabled: true
+           location: D:\file-handle-temporary-store
+           file-size-threshold: 5MB
+           max-file-size: 5MB
+           max-request-size: 30MB
+   datasource:
+        url: jdbc:mysql://localhost:3306/junitness
+        username: root
+        password: root
+        com.mysql.cj.jdbc.Driver: com.mysql.jdbc.Driver
+
+ 

@@ -1,0 +1,8 @@
+server:
+ port: 9761
+
+
+file:
+ storage:
+   location: D:\FIle-handle-storage
+

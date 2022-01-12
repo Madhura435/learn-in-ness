@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE names SYSTEM "alientsdtd.dtd">
+<names>
+
+<alien aid="A1" lang="Java">
+<name>Madhura</name>
+<salary>12000</salary>
+</alien>
+
+<alien aid="A2" lang="C">
+<name>Madhura</name>
+<salary>12000</salary>
+</alien>
+
+</names>

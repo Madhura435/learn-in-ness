@@ -1,0 +1,30 @@
+package com.madhura.fileHandling.ness.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Lob;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class FileDocument {
+
+@Id
+@GeneratedValue(strategy = GenerationType.AUTO)
+private long id;
+@Column
+private String fileName;
+@Column
+@Lob
+private byte[] docFile;
+}
+
+

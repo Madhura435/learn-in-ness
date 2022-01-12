@@ -1,0 +1,9 @@
+package com.madhura.fileHandling.ness.repository;
+
+import org.springframework.stereotype.Repository;
+import com.madhura.fileHandling.ness.model.FileDocument;
+import org.springframework.data.jpa.repository.JpaRepository;
+@Repository
+public interface FileRepository extends JpaRepository<FileDocument,Long>{
+
+}

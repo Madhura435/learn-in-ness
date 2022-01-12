@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.madhura.com/Alienschema" 
+xmlns:tns="http://www.madhura.com/Alienschema" 
+elementFormDefault="qualified">
+<complexType name="namesType">
+<sequence>
+<element name="alien" type="tns:alienType" maxOccurs="5" minOccurs="1">
+</element>
+</sequence>
+</complexType>
+<complexType name="alienType">
+<sequence>
+<element name="name" type="string"></element>
+<element name="salary" type="tns:mysal">
+</element>
+</sequence>
+<attribute name="aid" type="ID" use="required">
+</attribute>
+
+</complexType>
+<element name="globalnames" type="tns:namesType" />
+<simpleType name="mysal">
+<restriction base="integer">
+<minInclusive value="900"></minInclusive>
+<maxInclusive value="9000"></maxInclusive>
+</restriction>
+</simpleType>
+</schema>

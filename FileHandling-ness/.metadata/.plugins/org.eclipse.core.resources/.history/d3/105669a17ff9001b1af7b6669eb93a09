@@ -1,0 +1,18 @@
+package com.madhura.fileHandling.ness;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+/**
+* Hero is the main entity we'll be using to.
+* Please see the {@link com.baeldung.javadoc.Person} class for true identity
+* @author Captain America
+*/
+public class FileHandling {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FileHandling.class, args);
+	}
+
+}

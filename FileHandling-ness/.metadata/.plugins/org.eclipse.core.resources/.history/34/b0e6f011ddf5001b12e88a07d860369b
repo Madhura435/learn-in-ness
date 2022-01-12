@@ -1,0 +1,16 @@
+server:
+ port: 9761
+
+
+file:
+ storage:
+   location: D:\FIle-handle-storage
+
+spring:
+ servlet:
+   multipart:
+     enabled: true
+     location: D:\file-handle-temporary-store
+     file-size-threshold: 5Mb
+     max-file-size: 5Mb
+     max-request-size: 30MB

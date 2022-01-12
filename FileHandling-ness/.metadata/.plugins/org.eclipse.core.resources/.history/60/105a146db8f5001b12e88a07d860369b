@@ -1,0 +1,7 @@
+server:
+ port: 9761
+
+
+file:
+ storage:
+   location: /fileUpload
